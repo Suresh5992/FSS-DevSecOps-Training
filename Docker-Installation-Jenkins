@@ -7,7 +7,7 @@ curl -L https://github.com/docker/compose/releases/latest/download/docker-compos
 chmod +x /usr/local/bin/docker-compose
 chmod 777 /var/run/docker.sock
 
-Install Through Shell :
+Docker-Installation-CommandsInstall Through Shell :
 
     curl https://raw.githubusercontent.com/Msocial123/docker-install-commands/master/docker-install.sh | sudo bash
     
