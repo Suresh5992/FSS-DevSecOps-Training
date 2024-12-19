@@ -19,6 +19,7 @@ sudo ./aws/install
    20  clear
 ###### Configure the AWS #######
    21  aws configure
+
    22  clear
 #### Install EKSCTL #######
    23  eksctl create cluster --name test-cluster --version 1.31 --region ap-south-1 --nodegroup-name test-linux --node-type t2.medium --nodes 3 --autoscale --min-nodes 1 --max-nodes 5
